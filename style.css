@@ -1,0 +1,95 @@
+/* common shared style  */
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.left-right-margin{
+    padding:0 150px;
+
+}
+.btn-primary {
+    color: whitesmoke;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 12px 30px;
+    font-size: 20px;
+    border: none;
+}
+/* -------------------------*/ 
+
+/* hero area style start  */
+header {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    height: 600px;
+    background: rgba(229, 84, 115, 0.10);
+    margin-bottom: 50px;
+}
+
+.header-title {
+    margin-bottom: 15px;
+    font-size: 46px;
+    font-weight:900;
+
+}
+.header-description{
+    margin-bottom: 20px;
+}
+header img {
+    width: 660px;
+    height: 600px;
+}
+/* hero area style end  */
+
+
+/* our featured flower style start  */
+.featured-flower-title{
+    text-align: center;
+}
+.pink-flower{
+    text-align: center;
+    width: 320px;
+    height: 380px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+}
+
+.yellow-flower{
+    text-align: center;
+    text-align: center;
+    width: 320px;
+    height: 380px;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+.red-flower{
+    text-align: center;
+    width: 320px;
+    height: 380px;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+}
+.featured-flower-img{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 50px 0;
+}
+
+.featured-flower-img img{
+    width:220px;
+}
+
+.pink-flower img{
+    padding-top: 75px;
+}
+.yellow-flower img{
+    padding-top: 50px;
+}
+.red-flower img{padding-top: 85px;
+}
+.featured-flower-img u{
+    color: rgb(19, 1, 39);
+    font-weight: 700;
+}
