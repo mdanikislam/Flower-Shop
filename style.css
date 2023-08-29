@@ -13,10 +13,10 @@
     color: whitesmoke;
     border-radius: 8px;
     background: #E55473;
-    padding: 12px 30px;
-    font-size: 20px;
+    padding: 15px 40px;
+    font-size: 18px;
     border: none;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 /* -------------------------*/
@@ -188,80 +188,95 @@ header img {
     display: flex;
     margin: 70px 0;
     gap: 52px;
-   text-align: center;
+    text-align: center;
 }
-.birthday-gift-content{
-margin:auto;
+
+.birthday-gift-content {
+    margin: auto;
 }
-.birthdaay-gift-content-title{
+
+.birthdaay-gift-content-title {
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 35px;
 }
-.birthday-gift-content-caption{
+
+.birthday-gift-content-caption {
     margin-bottom: 30px;
-    color:  #888888;
+    color: #888888;
     font-size: 20px;
 }
+
 /* birthday gift style end  */
 
 
 /* Instagram style start  */
-.instagram{
+.instagram {
     margin: 100px 0;
 
 }
-.instagram-content{
+
+.instagram-content {
     text-align: center;
 }
-.instagram-title{
+
+.instagram-title {
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 20px;
 }
-.instagram-description{
-   margin: auto;
-  margin-bottom: 50px;
+
+.instagram-description {
+    margin: auto;
+    margin-bottom: 50px;
 }
-.instagram-img{
+
+.instagram-img {
     display: flex;
     justify-content: center;
     gap: 25px;
 }
-.instagram-img img{
+
+.instagram-img img {
     width: 250px;
     border-radius: 10px;
 }
+
 /* instagram style end  */
 
 /* latest deals style start  */
-.deals{
+.deals {
     margin: 100px auto;
     width: 1078px;
     height: 350px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    background:url('./assets/images/Rectangle 9.png');
-    background-size:100%;
-    background-repeat:no-repeat;
+    background: url('./assets/images/Rectangle 9.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
-.deals-content{
-padding-top: 70px;
- text-align: center;
+
+.deals-content {
+    padding-top: 70px;
+    text-align: center;
 }
-.deals-title{
+
+.deals-title {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 15px;
 }
-.deals-description{
-   color: #888888;
+
+.deals-description {
+    color: #888888;
 }
-.deals-btn{
+
+.deals-btn {
     text-align: center;
     margin-top: 70px;
 }
-#email{
+
+#email {
     width: 400px;
     height: 31px;
     margin-right: 20px;
@@ -269,6 +284,36 @@ padding-top: 70px;
     padding: 10px 30px;
     border-radius: 10px;
 }
+
 /* latest deals style end  */
 
 /* footer styel start  */
+footer {
+    height: 300px;
+    background: #111010;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.footer{
+    color: whitesmoke;
+}
+.footer-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#flower{
+    color: #E55473;
+}
+.footer-description{   
+margin-bottom: 20px;
+}
+.footer-text{
+    font-size: 15px;
+}
+.footer-copyright{
+    color: #9b9a9a;
+}
