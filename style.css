@@ -3,10 +3,12 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-.left-right-margin{
-    padding:0 150px;
+
+.left-right-margin {
+    padding: 0 150px;
 
 }
+
 .btn-primary {
     color: whitesmoke;
     border-radius: 8px;
@@ -14,8 +16,10 @@
     padding: 12px 30px;
     font-size: 20px;
     border: none;
+    font-weight: 700;
 }
-/* -------------------------*/ 
+
+/* -------------------------*/
 
 /* hero area style start  */
 header {
@@ -30,66 +34,241 @@ header {
 .header-title {
     margin-bottom: 15px;
     font-size: 46px;
-    font-weight:900;
+    font-weight: 900;
 
 }
-.header-description{
+
+.header-description {
     margin-bottom: 20px;
 }
+
 header img {
     width: 660px;
     height: 600px;
 }
+
 /* hero area style end  */
 
 
 /* our featured flower style start  */
-.featured-flower-title{
+.featured-flower-container {
     text-align: center;
-}
-.pink-flower{
-    text-align: center;
-    width: 320px;
-    height: 380px;
-border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
+
 }
 
-.yellow-flower{
+.pink-flower {
+    text-align: center;
+    width: 320px;
+    height: 380px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.yellow-flower {
     text-align: center;
     text-align: center;
     width: 320px;
     height: 380px;
     border-radius: 300px 300px 0px 0px;
-background: rgba(5, 151, 160, 0.15);
+    background: rgba(5, 151, 160, 0.15);
 }
-.red-flower{
+
+.red-flower {
     text-align: center;
     width: 320px;
     height: 380px;
     border-radius: 300px 300px 0px 0px;
-background: rgba(71, 125, 17, 0.15);
+    background: rgba(71, 125, 17, 0.15);
 }
-.featured-flower-img{
+
+.featured-flower-img {
     display: flex;
     justify-content: center;
     gap: 25px;
     margin: 50px 0;
 }
 
-.featured-flower-img img{
-    width:220px;
+.featured-flower-img img {
+    width: 220px;
 }
 
-.pink-flower img{
+.pink-flower img {
     padding-top: 75px;
 }
-.yellow-flower img{
+
+.yellow-flower img {
     padding-top: 50px;
 }
-.red-flower img{padding-top: 85px;
+
+.red-flower img {
+    padding-top: 85px;
 }
-.featured-flower-img u{
+
+.featured-flower-img u {
     color: rgb(19, 1, 39);
     font-weight: 700;
 }
+
+.featured-flower-title {
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+/* featured flower style end  */
+
+
+/* support style start  */
+.support-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.support {
+    width: 900px;
+    height: 250px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.delivery,
+.fresh-flower,
+.free-support {
+    text-align: center;
+}
+
+/* support style end  */
+
+
+
+/* hot deals start  */
+.hot-deals-container {
+    margin-bottom: 60px;
+}
+
+.hot-deals {
+    text-align: center;
+    height: 400px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 50px 0;
+}
+
+.hot-deals-title {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.hot-deals-description {
+    margin-bottom: 30px;
+}
+
+#off {
+    color: #E55473;
+}
+
+/* hot deals end  */
+
+/* birthday gift styel start  */
+
+.birthday-gift {
+    height: 400px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    margin: 70px 0;
+    gap: 52px;
+   text-align: center;
+}
+.birthday-gift-content{
+margin:auto;
+}
+.birthdaay-gift-content-title{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.birthday-gift-content-caption{
+    margin-bottom: 30px;
+    color:  #888888;
+    font-size: 20px;
+}
+/* birthday gift style end  */
+
+
+/* Instagram style start  */
+.instagram{
+    margin: 100px 0;
+
+}
+.instagram-content{
+    text-align: center;
+}
+.instagram-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.instagram-description{
+   margin: auto;
+  margin-bottom: 50px;
+}
+.instagram-img{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.instagram-img img{
+    width: 250px;
+    border-radius: 10px;
+}
+/* instagram style end  */
+
+/* latest deals style start  */
+.deals{
+    margin: 100px auto;
+    width: 1078px;
+    height: 350px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    background:url('./assets/images/Rectangle 9.png');
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+.deals-content{
+padding-top: 70px;
+ text-align: center;
+}
+.deals-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.deals-description{
+   color: #888888;
+}
+.deals-btn{
+    text-align: center;
+    margin-top: 70px;
+}
+#email{
+    width: 400px;
+    height: 31px;
+    margin-right: 20px;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+/* latest deals style end  */
+
+/* footer styel start  */
